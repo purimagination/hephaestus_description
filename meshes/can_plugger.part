@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "29b0fde833175342d32a9ae8",
+    "documentMicroversion": "063441996ed748f03dfa0b1e",
+    "elementId": "7b209aaabdf95db88c4717bb",
+    "fullConfiguration": "default",
+    "id": "MSGf7zoMLk1gkmm69",
+    "isStandardContent": false,
+    "name": "CAN_plugger <1>",
+    "partId": "JFH",
+    "suppressed": false,
+    "type": "Part"
+}
