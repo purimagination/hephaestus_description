@@ -3224,7 +3224,7 @@
 <origin xyz="-1.3877787807814456755e-17 0.027499999999999961975 -0.040500000000000091482" rpy="1.5707963267948972241 1.5707963267948961139 0" />
 <parent link="link6" />
 <child link="gripper" />
-<axis xyz="0 0 1"/>
+<axis xyz="0 0 -1"/>
 <limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
@@ -3233,7 +3233,7 @@
 <origin xyz="-0.027499999999998525624 1.3193934789373790605e-16 -0.040500000000001007416" rpy="3.141592653589788231 -1.5707963267948452657 0" />
 <parent link="link5" />
 <child link="link6" />
-<axis xyz="0 0 1"/>
+<axis xyz="0 0 -1"/>
 <limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
@@ -3242,7 +3242,7 @@
 <origin xyz="-1.2582286762934820898e-16 0.27900000000000008127 -0.014500000000000047573" rpy="3.141592653589793116 -6.9410315361038256731e-16 -1.5707963267948961139" />
 <parent link="link4" />
 <child link="link5" />
-<axis xyz="0 0 1"/>
+<axis xyz="0 0 -1"/>
 <limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
@@ -3251,7 +3251,7 @@
 <origin xyz="4.0692392257585837815e-17 0.27900000000000046985 8.8817841970012523234e-16" rpy="-3.141592653589793116 1.956768080901109495e-15 -3.1415926535897926719" />
 <parent link="link3" />
 <child link="link4" />
-<axis xyz="0 0 1"/>
+<axis xyz="0 0 -1"/>
 <limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
