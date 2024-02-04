@@ -5333,7 +5333,7 @@
 <parent link="link6" />
 <child link="gripper" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5342,7 +5342,7 @@
 <parent link="link5" />
 <child link="link6" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5351,7 +5351,7 @@
 <parent link="link4" />
 <child link="link5" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5360,7 +5360,7 @@
 <parent link="link3" />
 <child link="link4" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5368,8 +5368,8 @@
 <origin xyz="6.5317576732167981012e-18 -0.049999999999999746036 -0.061000000000001497469" rpy="-1.5707963267948974462 1.1149798816950092785e-13 2.7183456743031896713e-16" />
 <parent link="link2" />
 <child link="link3" />
-<axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<axis xyz="0 0 -1"/>
+<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5377,8 +5377,8 @@
 <origin xyz="1.2094840050751841157e-30 -3.330669073883665004e-19 0.0030000000000000000625" rpy="-3.1415926535897922278 -2.0432878948499990369e-16 1.5707963267949001107" />
 <parent link="link1" />
 <child link="link2" />
-<axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<axis xyz="0 0 -1"/>
+<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
