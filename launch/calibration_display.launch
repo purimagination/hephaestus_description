@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="use_sim_time" default="false"/>
+  <arg name="description_file" default="$(find hephaestus_description)/urdf/hephaestus_calibration.urdf"/>
+
+  <param name="use_sim_time" value="$(arg use_sim_time)" />
+
+  <include file="$(find hephaestus_description)/launch/description.launch">
+    <arg name="description_file" value="$(arg description_file)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+  </include>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find hephaestus_description)/rviz/urdf_viewer.rviz" />
+  
+  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+</launch>

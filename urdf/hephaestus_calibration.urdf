@@ -1,0 +1,3683 @@
+<robot name="hephaestus_calbration">
+<link name="link1">
+<visual>
+<origin xyz="1.3792584575397063074e-18 -1.7516230804060213387e-46 1.4171762190870562479e-48" rpy="2.8500753929115218458e-28 2.9400200094311407188e-31 -5.36636722058665712e-46" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base_link.stl"/>
+</geometry>
+<material name="base_link_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="1.3792584575397063074e-18 -1.7516230804060213387e-46 1.4171762190870562479e-48" rpy="2.8500753929115218458e-28 2.9400200094311407188e-31 -5.36636722058665712e-46" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base_link.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-3.1427067427220941083e-19 4.999089277745036229e-18 0.0015000000000000000312" rpy="0 0 0"/>
+<mass value="0.078163293318619431194" />
+<inertia ixx="0.00012319194219407781006" ixy="-4.8590653517577475747e-35"  ixz="2.1507073199217931643e-34" iyy="0.00012319194219407778295" iyz="-2.7341089331277944535e-20" izz="0.00024626663944817765283" />
+</inertial>
+</link>
+
+<link name="link2">
+<visual>
+<origin xyz="0.0083434588481235694157 -0.043000000000000052069 -0.086678525939969150449" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0083434588481235694157 -0.043000000000000052069 -0.086678525939969150449" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.018500000000000016431 0.032042939940024210699 -0.0069999999999999541755" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018500000000000016431 0.032042939940024210699 -0.0069999999999999541755" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0083434588481228443013 -0.043000000000000010436 -0.086678525939969178205" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0083434588481228443013 -0.043000000000000010436 -0.086678525939969178205" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0083434588481235694157 -0.043000000000000065947 -0.035321474060033511422" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0083434588481235694157 -0.043000000000000065947 -0.035321474060033511422" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.025678525939968357278 -0.043000000000000031253 -0.069343458848124484017" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.025678525939968357278 -0.043000000000000031253 -0.069343458848124484017" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-6.498429976115837117e-18 -1.8029186155748759218e-17 -0.012999999999999964709" rpy="-9.9667941775237359666e-33 -1.0437261642816966386e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket.stl"/>
+</geometry>
+<material name="me8010e17b50_bracket_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-6.498429976115837117e-18 -1.8029186155748759218e-17 -0.012999999999999964709" rpy="-9.9667941775237359666e-33 -1.0437261642816966386e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.021843458848122228322 -0.043000000000000059008 -0.045129798188105370305" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021843458848122228322 -0.043000000000000059008 -0.045129798188105370305" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.015870201811896425537 -0.043000000000000024314 -0.082843458848123802118" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.015870201811896425537 -0.043000000000000024314 -0.082843458848123802118" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.018500000000000009492 -0.032042939940024259271 -0.0069999999999999611144" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.018500000000000009492 -0.032042939940024259271 -0.0069999999999999611144" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.015870201811895665728 -0.043000000000000045131 -0.039156541151878859752" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.015870201811895665728 -0.043000000000000045131 -0.039156541151878859752" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.015870201811895703892 -0.043000000000000024314 -0.082843458848123802118" rpy="1.570796326794896558 1.5707963267948956698 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.015870201811895703892 -0.043000000000000024314 -0.082843458848123802118" rpy="1.570796326794896558 1.5707963267948956698 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.021843458848122224852 -0.043000000000000045131 -0.076870201811897340138" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021843458848122224852 -0.043000000000000045131 -0.076870201811897340138" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.025678525939967628694 -0.043000000000000052069 -0.052656541151878163975" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.025678525939967628694 -0.043000000000000052069 -0.052656541151878163975" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.032042939940024224577 -0.018500000000000044187 -0.006999999999999938563" rpy="-3.141592653589793116 -1.0437261642835255794e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.032042939940024224577 -0.018500000000000044187 -0.006999999999999938563" rpy="-3.141592653589793116 -1.0437261642835255794e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.018500000000000009492 0.032042939940024238454 -0.0069999999999999628492" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.018500000000000009492 0.032042939940024238454 -0.0069999999999999628492" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.021843458848122967314 -0.043000000000000052069 -0.045129798188105377243" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.021843458848122967314 -0.043000000000000052069 -0.045129798188105377243" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.025678525939967628694 -0.043000000000000045131 -0.069343458848124484017" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.025678525939967628694 -0.043000000000000045131 -0.069343458848124484017" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-6.8386350077130765347e-18 0.037000000000000012046 -0.0069999999999999541755" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-6.8386350077130765347e-18 0.037000000000000012046 -0.0069999999999999541755" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.037000000000000005107 -2.0785110348950738811e-17 -0.0069999999999999507061" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.037000000000000005107 -2.0785110348950738811e-17 -0.0069999999999999507061" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032042939940024238454 0.018499999999999995615 -0.0069999999999999489714" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032042939940024238454 0.018499999999999995615 -0.0069999999999999489714" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032042939940024245393 -0.01850000000000002337 -0.006999999999999938563" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032042939940024245393 -0.01850000000000002337 -0.006999999999999938563" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.015870201811896429006 -0.043000000000000038192 -0.03915654115187887363" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.015870201811896429006 -0.043000000000000038192 -0.03915654115187887363" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.018499999999999985206 -0.032042939940024259271 -0.0069999999999999541755" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018499999999999985206 -0.032042939940024259271 -0.0069999999999999541755" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.025678525939968364217 -0.043000000000000031253 -0.052656541151878163975" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.025678525939968364217 -0.043000000000000031253 -0.052656541151878163975" rpy="1.570796326794896558 1.5707963267948958919 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.021843458848122963845 -0.043000000000000024314 -0.076870201811897312383" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.021843458848122963845 -0.043000000000000024314 -0.076870201811897312383" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.037000000000000012046 -1.3894436677572873739e-17 -0.0069999999999999524408" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.037000000000000012046 -1.3894436677572873739e-17 -0.0069999999999999524408" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0083434588481228182805 -0.043000000000000031253 -0.035321474060033504483" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0083434588481228182805 -0.043000000000000031253 -0.035321474060033504483" rpy="1.570796326794896558 1.570796326794896558 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.032042939940024238454 0.018499999999999995615 -0.0069999999999999489714" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.032042939940024238454 0.018499999999999995615 -0.0069999999999999489714" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.1259062449298334462e-17 -0.037000000000000039801 -0.0069999999999999472367" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.1259062449298334462e-17 -0.037000000000000039801 -0.0069999999999999472367" rpy="-3.141592653589793116 -1.0437261642823716977e-32 1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.8404832616855861626e-19 -1.4170265403514080542e-17 -0.069999999999999978906" rpy="-1.4685109110633043062e-32 1.043726164281609468e-32 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base.stl"/>
+</geometry>
+<material name="base_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.8404832616855861626e-19 -1.4170265403514080542e-17 -0.069999999999999978906" rpy="-1.4685109110633043062e-32 1.043726164281609468e-32 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.2037062152420224082e-35 -3.8518598887744717061e-34 0.0030000000000000000625" rpy="-3.141592653589793116 1.4685109110633043062e-32 -3.7424946697838026933e-31" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/flange.stl"/>
+</geometry>
+<material name="flange_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.2037062152420224082e-35 -3.8518598887744717061e-34 0.0030000000000000000625" rpy="-3.141592653589793116 1.4685109110633043062e-32 -3.7424946697838026933e-31" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/flange.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="8.8425527110183837714e-08 -0.0047244140532892988857 -0.035740371308818831564" rpy="0 0 0"/>
+<mass value="1.1523014929706003606" />
+<inertia ixx="0.0011723236064433472173" ixy="2.1940126307152708164e-09"  ixz="9.6385363703892172769e-10" iyy="0.0010177433725059531564" iyz="-7.029493520058219193e-05" izz="0.0012404580302936669359" />
+</inertial>
+</link>
+
+<link name="link3">
+<visual>
+<origin xyz="-0.018500000000006063677 -0.032042939940027305445 -0.0070000000000029760638" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.018500000000006063677 -0.032042939940027305445 -0.0070000000000029760638" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032042939940023211498 0.018500000000007343903 -0.0070000000000031217806" rpy="3.1415926535897304994 5.7226550920441656821e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032042939940023211498 0.018500000000007343903 -0.0070000000000031217806" rpy="3.1415926535897304994 5.7226550920441656821e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.018499999999953178897 0.3110429399400820305 -0.0069999999999952738916" rpy="3.1415926535897304994 5.76883245572799983e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.018499999999953178897 0.3110429399400820305 -0.0069999999999952738916" rpy="3.1415926535897304994 5.76883245572799983e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.018500000000048717058 0.31104293994007814472 -0.0069999999999922762894" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018500000000048717058 0.31104293994007814472 -0.0069999999999922762894" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.036999999999959003183 0.2790000000000539826 -0.0069999999999974318876" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.036999999999959003183 0.2790000000000539826 -0.0069999999999974318876" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.018500000000005751427 0.032042939940028616896 -0.0069999999999986323163" rpy="3.1415926535897304994 5.7226550920441656821e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018500000000005751427 0.032042939940028616896 -0.0069999999999986323163" rpy="3.1415926535897304994 5.7226550920441656821e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.03204293994006598284 0.26050000000004347456 -0.0069999999999922138394" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03204293994006598284 0.26050000000004347456 -0.0069999999999922138394" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="4.8587459908183552396e-14 0.31600000000005679102 -0.0069999999999936571293" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="4.8587459908183552396e-14 0.31600000000005679102 -0.0069999999999936571293" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999653568297 0.2290000000000423086 -0.011999999999996346922" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999653568297 0.2290000000000423086 -0.011999999999996346922" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.032042939940071610283 0.29750000000005005774 -0.0069999999999914436222" rpy="3.1415926535897304994 5.7680404949993763029e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.032042939940071610283 0.29750000000005005774 -0.0069999999999914436222" rpy="3.1415926535897304994 5.7680404949993763029e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.018499999999995877381 -0.032042939940031246737 -0.0069999999999999229505" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018499999999995877381 -0.032042939940031246737 -0.0069999999999999229505" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032042939940028887513 -0.018499999999999218459 -0.0070000000000038364867" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032042939940028887513 -0.018499999999999218459 -0.0070000000000038364867" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999655806091 0.22900000000004297473 -0.023999999999997564948" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999655806091 0.22900000000004297473 -0.023999999999997564948" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.037000000000044788728 0.27900000000004610001 -0.0069999999999913811721" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.037000000000044788728 0.27900000000004610001 -0.0069999999999913811721" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="6.6996458551049380928e-15 0.048000000000011991408 -0.049000000000003457457" rpy="-1.5707963267950564301 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/aluminum_tube_11_32_183.stl"/>
+</geometry>
+<material name="aluminum_tube_11_32_183_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="6.6996458551049380928e-15 0.048000000000011991408 -0.049000000000003457457" rpy="-1.5707963267950564301 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/aluminum_tube_11_32_183.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.011999999999995188127 0.040025000000011828893 -0.049000000000004678702" rpy="-1.5707963267950564301 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.011999999999995188127 0.040025000000011828893 -0.049000000000004678702" rpy="-1.5707963267950564301 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.006000000000007656327 0.050000000000010050294 -0.024000000000000729083" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.006000000000007656327 0.050000000000010050294 -0.024000000000000729083" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999928443906 0.050000000000010549894 -0.012000000000000704548" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999928443906 0.050000000000010549894 -0.012000000000000704548" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-5.8246591477463100075e-15 -0.037000000000005917045 -0.0070000000000016160406" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-5.8246591477463100075e-15 -0.037000000000005917045 -0.0070000000000016160406" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.025999999999994746064 0.044000000000011252332 -0.0070000000000020254354" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.025999999999994746064 0.044000000000011252332 -0.0070000000000020254354" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999949694268 0.04002500000001191216 -0.059392304845418256165" rpy="-1.5707963267950564301 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999949694268 0.04002500000001191216 -0.059392304845418256165" rpy="-1.5707963267950564301 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="3.7163031164116408449e-14 0.24200000000004354139 -0.0069999999999951975638" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="3.7163031164116408449e-14 0.24200000000004354139 -0.0069999999999951975638" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.025999999999965300868 0.235000000000045145 -0.0069999999999975012765" rpy="3.1415926535897304994 5.7680404949993763029e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.025999999999965300868 0.235000000000045145 -0.0069999999999975012765" rpy="3.1415926535897304994 5.7680404949993763029e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0060000000000056986915 0.040025000000010135803 -0.059392304845418644743" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0060000000000056986915 0.040025000000010135803 -0.059392304845418644743" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999930057198 0.05000000000001132705 -0.024000000000001728284" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999930057198 0.05000000000001132705 -0.024000000000001728284" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032042939939985894127 0.26050000000005024692 -0.0069999999999974180098" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032042939939985894127 0.26050000000005024692 -0.0069999999999974180098" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0060000000000078297993 0.05000000000000925926 -0.011999999999999733102" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0060000000000078297993 0.05000000000000925926 -0.011999999999999733102" rpy="1.5707963267950566522 1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.032042939940028623835 0.018500000000000516032 -0.006999999999997862099" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.032042939940028623835 0.018500000000000516032 -0.006999999999997862099" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.02600000000000800629 0.044000000000005756728 -0.0069999999999977510767" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.02600000000000800629 0.044000000000005756728 -0.0069999999999977510767" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0060000000000059745126 0.040025000000008706391 -0.038607695154589699582" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0060000000000059745126 0.040025000000008706391 -0.038607695154589699582" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.018499999999996189631 0.032042939940032585944 -0.0070000000000016854296" rpy="3.1415926535897304994 5.7226550920441656821e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.018499999999996189631 0.032042939940032585944 -0.0070000000000016854296" rpy="3.1415926535897304994 5.7226550920441656821e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.018499999999963070291 0.2469570600600222432 -0.0069999999999966408537" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.018499999999963070291 0.2469570600600222432 -0.0069999999999966408537" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.02600000000003749312 0.23500000000003948286 -0.0069999999999932269179" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.02600000000003749312 0.23500000000003948286 -0.0069999999999932269179" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.032042939940022954759 -0.01850000000000604633 -0.0069999999999985768051" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.032042939940022954759 -0.01850000000000604633 -0.0069999999999985768051" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032042939939980218111 0.29750000000005694112 -0.0069999999999966477926" rpy="3.1415926535897304994 5.7680404949993763029e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032042939939980218111 0.29750000000005694112 -0.0069999999999966477926" rpy="3.1415926535897304994 5.7680404949993763029e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0060000000000352514407 0.22900000000004164247 -0.023999999999996565747" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0060000000000352514407 0.22900000000004164247 -0.023999999999996565747" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="5.5581362328973795257e-15 0.037000000000007249312 -0.0070000000000000547895" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="5.5581362328973795257e-15 0.037000000000007249312 -0.0070000000000000547895" rpy="3.1415926535897300553 5.7877379539212291074e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999950206012 0.040025000000010024781 -0.038607695154590698783" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999950206012 0.040025000000010024781 -0.038607695154590698783" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.037000000000001823097 -3.2612801348363973375e-15 -0.0069999999999977927101" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.037000000000001823097 -3.2612801348363973375e-15 -0.0069999999999977927101" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.037000000000002079836 4.593547764386585186e-15 -0.0070000000000038434256" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.037000000000002079836 4.593547764386585186e-15 -0.0070000000000038434256" rpy="3.1415926535897300553 5.7010285109476116487e-14 1.5707963267947127051" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.012000000000006319847 0.040025000000008789658 -0.049000000000003735012" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.012000000000006319847 0.040025000000008789658 -0.049000000000003735012" rpy="-1.5707963267950575403 -1.5707963267948445996 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.018500000000038860359 0.24695706006001824639 -0.0069999999999935877404" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+<material name="m3_25mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.018500000000038860359 0.24695706006001824639 -0.0069999999999935877404" rpy="3.1415926535897304994 5.6939008643900087402e-14 1.570796326794712483" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_25mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0060000000000354422602 0.22900000000004097633 -0.011999999999995375477" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0060000000000354422602 0.22900000000004097633 -0.011999999999995375477" rpy="-1.5707963267950570962 -1.5707963267948443775 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="4.2019131745180249755e-14 0.2790000000000539826 -0.069999999999999784617" rpy="7.8825834748387281884e-15 1.3234628252857624897e-13 -1.5707963267950328934" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base.stl"/>
+</geometry>
+<material name="base_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="4.2019131745180249755e-14 0.2790000000000539826 -0.069999999999999784617" rpy="7.8825834748387281884e-15 1.3234628252857624897e-13 -1.5707963267950328934" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="4.2973812524054909521e-14 0.2790000000000495417 0.0030000000000064072636" rpy="3.141592653589793116 4.4408920985006217244e-16 -5.5511151231244071259e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/flange.stl"/>
+</geometry>
+<material name="flange_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="4.2973812524054909521e-14 0.2790000000000495417 0.0030000000000064072636" rpy="3.141592653589793116 4.4408920985006217244e-16 -5.5511151231244071259e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/flange.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="4.2740471399854407668e-14 0.27900000000005042988 -0.012999999999994987787" rpy="-4.807265696626941704e-14 -1.3617329402965800403e-13 1.5707963267947064878" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_1.stl"/>
+</geometry>
+<material name="me8010e17b50_bracket_asm_1_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="4.2740471399854407668e-14 0.27900000000005042988 -0.012999999999994987787" rpy="-4.807265696626941704e-14 -1.3617329402965800403e-13 1.5707963267947064878" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="4.2468966359182453924e-14 0.27900000000005142908 -0.028999999999996542432" rpy="3.1415926535897398253 5.7853620717353610505e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_3.stl"/>
+</geometry>
+<material name="me8010e17b50_bracket_asm_3_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="4.2468966359182453924e-14 0.27900000000005142908 -0.028999999999996542432" rpy="3.1415926535897398253 5.7853620717353610505e-14 1.570796326794712261" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-9.7029329015842775849e-16 4.7878367936959875806e-15 -0.070000000000006140644" rpy="7.5495165674511875372e-15 1.3254670912496925565e-13 -1.5707963267950324493" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base.stl"/>
+</geometry>
+<material name="base_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-9.7029329015842775849e-16 4.7878367936959875806e-15 -0.070000000000006140644" rpy="7.5495165674511875372e-15 1.3254670912496925565e-13 -1.5707963267950324493" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/base.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="1.8488927466117464189e-32 0 0.0029999999999999957256" rpy="-3.141592653589793116 -3.0892526523193908693e-31 1.0529537655545236493e-33" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/flange.stl"/>
+</geometry>
+<material name="flange_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="1.8488927466117464189e-32 0 0.0029999999999999957256" rpy="-3.141592653589793116 -3.0892526523193908693e-31 1.0529537655545236493e-33" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/flange.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-2.0732027206081905546e-16 1.0963452368173420837e-15 -0.013000000000001343814" rpy="7.7160500211449578628e-15 1.3322921617288480574e-13 -1.5707963267950328934" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_1.stl"/>
+</geometry>
+<material name="me8010e17b50_bracket_asm_1_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-2.0732027206081905546e-16 1.0963452368173420837e-15 -0.013000000000001343814" rpy="7.7160500211449578628e-15 1.3322921617288480574e-13 -1.5707963267950328934" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1290582064566569186e-16 2.1233015345956118836e-15 -0.029000000000002787437" rpy="-3.1415926535897846783 1.3334699468924108205e-13 -1.5707963267950324493" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_3.stl"/>
+</geometry>
+<material name="me8010e17b50_bracket_asm_3_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1290582064566569186e-16 2.1233015345956118836e-15 -0.029000000000002787437" rpy="-3.1415926535897846783 1.3334699468924108205e-13 -1.5707963267950324493" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/me8010e17b50_bracket_asm_3.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="2.056852602075489383e-14 0.13905499163507623051 -0.036243742585867037842" rpy="0 0 0"/>
+<mass value="2.548743890879638041" />
+<inertia ixx="0.044157339046548976791" ixy="-8.2966765744680158281e-10"  ixz="-2.0564427998213750771e-17" iyy="0.001941569732532353763" iyz="-1.4468304719733333913e-05" izz="0.044276484530402469841" />
+</inertial>
+</link>
+
+<link name="link4">
+<visual>
+<origin xyz="0.0059999999999990694458 0.032000000000000583533 -0.031607695154591469722" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+<material name="m4_14mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0059999999999990694458 0.032000000000000583533 -0.031607695154591469722" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.011874999999990434874 0.29956810333989997153 -0.01400000000001980216" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.011874999999990434874 0.29956810333989997153 -0.01400000000001980216" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0044999999999985581048 0.044000000000002592593 -0.01350000000000353001" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+<material name="m3_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0044999999999985581048 0.044000000000002592593 -0.01350000000000353001" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0218434588481226169 -0.015870201811898687616 -0.0089999999999996818656" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0218434588481226169 -0.015870201811898687616 -0.0089999999999996818656" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0045000000000012018234 0.044000000000002315037 -0.013500000000003696543" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+<material name="m3_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0045000000000012018234 0.044000000000002315037 -0.013500000000003696543" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0045000000000012261095 0.044000000000002814637 -0.0045000000000026962876" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+<material name="m3_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0045000000000012261095 0.044000000000002814637 -0.0045000000000026962876" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.01399999999999865935 0.038000000000000921929 -1.5404344466674046998e-15" rpy="-3.1415926535897802374 -6.4274194148478897212e-14 -1.5707963267948632513" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.01399999999999865935 0.038000000000000921929 -1.5404344466674046998e-15" rpy="-3.1415926535897802374 -6.4274194148478897212e-14 -1.5707963267948632513" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.008343458848122651747 -0.025678525939971330594 -0.0089999999999987867483" rpy="-7.1609385088329538833e-15 -3.5305092183079845457e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.008343458848122651747 -0.025678525939971330594 -0.0089999999999987867483" rpy="-7.1609385088329538833e-15 -3.5305092183079845457e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0083434588481225979706 0.025678525939970608949 -0.0090000000000017843504" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0083434588481225979706 0.025678525939970608949 -0.0090000000000017843504" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.025678525939968398911 0.0083434588481243743274 -0.0090000000000003549383" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.025678525939968398911 0.0083434588481243743274 -0.0090000000000003549383" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.023749999999990892979 0.27900000000001806688 -0.014000000000018185398" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.023749999999990892979 0.27900000000001806688 -0.014000000000018185398" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.012000000000000506789 0.03199999999999947331 -0.042000000000006150469" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+<material name="m4_14mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.012000000000000506789 0.03199999999999947331 -0.042000000000006150469" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.005999999999999228173 0.031999999999999306777 -0.052392304845420248349" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+<material name="m4_14mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.005999999999999228173 0.031999999999999306777 -0.052392304845420248349" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.021843458848122627308 0.01587020181189791046 -0.0090000000000008822942" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.021843458848122627308 0.01587020181189791046 -0.0090000000000008822942" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.6726957400168814987e-15 0.27900000000001728973 -0.020000000000019377278" rpy="-1.6653345369373960935e-16 4.4408920985008904301e-16 -3.1415926535897922278" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036i36_bracket.stl"/>
+</geometry>
+<material name="mg4036i36_bracket_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.6726957400168814987e-15 0.27900000000001728973 -0.020000000000019377278" rpy="-1.6653345369373960935e-16 4.4408920985008904301e-16 -3.1415926535897922278" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036i36_bracket.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0060000000000007096268 0.032000000000000361489 -0.031607695154591643194" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+<material name="m4_14mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0060000000000007096268 0.032000000000000361489 -0.031607695154591643194" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.025678525939968863817 0.0083434588481230975709 -0.009000000000001354139" rpy="-7.1054273576016929009e-15 -3.5305092183079845457e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.025678525939968863817 0.0083434588481230975709 -0.009000000000001354139" rpy="-7.1054273576016929009e-15 -3.5305092183079845457e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0044999999999985502985 0.044000000000003036682 -0.0045000000000025297542" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+<material name="m3_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0044999999999985502985 0.044000000000003036682 -0.0045000000000025297542" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.025678525939968891573 -0.0083434588481238747271 -0.008999999999999265532" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.025678525939968891573 -0.0083434588481238747271 -0.008999999999999265532" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.014000000000001346437 0.03799999999999997824 -1.9151347174783950322e-15" rpy="-3.1415926535897802374 -6.4274194148478909834e-14 -1.5707963267948632513" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+<material name="m3_20mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014000000000001346437 0.03799999999999997824 -1.9151347174783950322e-15" rpy="-3.1415926535897802374 -6.4274194148478909834e-14 -1.5707963267948632513" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_20mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.011999999999999101663 0.032000000000000083933 -0.042000000000005741074" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+<material name="m4_14mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.011999999999999101663 0.032000000000000083933 -0.042000000000005741074" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.01039230484540541212 0.25250000000001454614 -0.036000000000019238833" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.01039230484540541212 0.25250000000001454614 -0.036000000000019238833" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.015870201811897143712 0.021843458848124275296 -0.0090000000000020202728" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.015870201811897143712 0.021843458848124275296 -0.0090000000000020202728" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.01187500000000911958 0.29956810333989941642 -0.014000000000020204616" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.01187500000000911958 0.29956810333989941642 -0.014000000000020204616" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-7.5696833774429134442e-15 0.2525000000000133249 -0.054000000000021405877" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-7.5696833774429134442e-15 0.2525000000000133249 -0.054000000000021405877" rpy="1.5707963267949309749 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.011875000000007806394 0.25843189666013571815 -0.014000000000017526203" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.011875000000007806394 0.25843189666013571815 -0.014000000000017526203" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.015870201811895801036 0.021843458848125107963 -0.0090000000000014096502" rpy="-7.4940054162204913791e-15 -3.3528735343679550816e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.015870201811895801036 0.021843458848125107963 -0.0090000000000014096502" rpy="-7.4940054162204913791e-15 -3.3528735343679550816e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0083434588481241921815 -0.025678525939970942016 -0.0089999999999985230703" rpy="-7.1054273576016929009e-15 -3.5305092183079845457e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0083434588481241921815 -0.025678525939970942016 -0.0089999999999985230703" rpy="-7.1054273576016929009e-15 -3.5305092183079845457e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.010392304845420738402 0.25250000000001410205 -0.036000000000019627411" rpy="1.570796326794931197 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+<material name="m4_8mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.010392304845420738402 0.25250000000001410205 -0.036000000000019627411" rpy="1.570796326794931197 -1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_8mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0060000000000005474302 0.03199999999999897371 -0.052392304845420484272" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+<material name="m4_14mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0060000000000005474302 0.03199999999999897371 -0.052392304845420484272" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_14mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.021843458848123650795 -0.015870201811897632904 -0.0089999999999988908317" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.021843458848123650795 -0.015870201811897632904 -0.0089999999999988908317" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.023750000000008195111 0.27900000000001673461 -0.014000000000019059698" rpy="-3.1415926535897753524 -1.6453505224944835075e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.023750000000008195111 0.27900000000001673461 -0.014000000000019059698" rpy="-3.1415926535897753524 -1.6453505224944835075e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.025678525939968374625 -0.0083434588481250959724 -0.0090000000000002647327" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.025678525939968374625 -0.0083434588481250959724 -0.0090000000000002647327" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.1281991325501141933e-15 0.044000000000000427658 -0.042000000000006733336" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/aluminum_tube_11_32_200_5.stl"/>
+</geometry>
+<material name="aluminum_tube_11_32_200_5_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.1281991325501141933e-15 0.044000000000000427658 -0.042000000000006733336" rpy="-1.5707963267949309749 1.5707963267948308328 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/aluminum_tube_11_32_200_5.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.021843458848123643856 0.015870201811896855748 -0.0090000000000016733281" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021843458848123643856 0.015870201811896855748 -0.0090000000000016733281" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.011874999999991760202 0.25843189666013627326 -0.014000000000017123747" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.011874999999991760202 0.25843189666013627326 -0.014000000000017123747" rpy="-3.1415926535897753524 -1.6409096303959833862e-13 -1.5707963267948563679" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.015870201811897098609 -0.021843458848124941429 -0.0089999999999985993981" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.015870201811897098609 -0.021843458848124941429 -0.0089999999999985993981" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0083434588481241730995 0.025678525939970275882 -0.0090000000000021035396" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0083434588481241730995 0.025678525939970275882 -0.0090000000000021035396" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0158702018118958392 -0.021843458848125663074 -0.0089999999999992100208" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+<material name="m3_22mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0158702018118958392 -0.021843458848125663074 -0.0089999999999992100208" rpy="-7.1054273576017007895e-15 -3.4638958368304751533e-14 1.5707963267949245356" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_22mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.2621774483536188887e-29 0 -0.0060000000000000053291" rpy="-3.7825125665838021046e-31 -4.2756212370402158198e-31 1.661900821116980089e-31" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/j3_converter_asm_1.stl"/>
+</geometry>
+<material name="j3_converter_asm_1_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.2621774483536188887e-29 0 -0.0060000000000000053291" rpy="-3.7825125665838021046e-31 -4.2756212370402158198e-31 1.661900821116980089e-31" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/j3_converter_asm_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="1.3343492977211403981e-16 -8.3266726846886740532e-16 -0.018000000000001341316" rpy="-3.1415926535897926719 -5.5511151231230691439e-17 -3.1415926535897922278" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/j3_converter_asm_2.stl"/>
+</geometry>
+<material name="j3_converter_asm_2_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="1.3343492977211403981e-16 -8.3266726846886740532e-16 -0.018000000000001341316" rpy="-3.1415926535897926719 -5.5511151231230691439e-17 -3.1415926535897922278" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/j3_converter_asm_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-1.stl"/>
+</geometry>
+<material name="mg4036e-i36-1_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-17.stl"/>
+</geometry>
+<material name="mg4036e-i36-17_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-17.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-20.stl"/>
+</geometry>
+<material name="mg4036e-i36-20_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-20.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-16.stl"/>
+</geometry>
+<material name="mg4036e-i36-16_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-16.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-4.stl"/>
+</geometry>
+<material name="mg4036e-i36-4_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-4.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-7.stl"/>
+</geometry>
+<material name="mg4036e-i36-7_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-7.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-25.stl"/>
+</geometry>
+<material name="mg4036e-i36-25_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-25.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-2.stl"/>
+</geometry>
+<material name="mg4036e-i36-2_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-19.stl"/>
+</geometry>
+<material name="mg4036e-i36-19_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-19.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-12.stl"/>
+</geometry>
+<material name="mg4036e-i36-12_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-12.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-10.stl"/>
+</geometry>
+<material name="mg4036e-i36-10_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-10.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-24.stl"/>
+</geometry>
+<material name="mg4036e-i36-24_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-24.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-14.stl"/>
+</geometry>
+<material name="mg4036e-i36-14_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-14.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-5.stl"/>
+</geometry>
+<material name="mg4036e-i36-5_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-5.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-9.stl"/>
+</geometry>
+<material name="mg4036e-i36-9_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-6.stl"/>
+</geometry>
+<material name="mg4036e-i36-6_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-30.stl"/>
+</geometry>
+<material name="mg4036e-i36-30_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-30.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-28.stl"/>
+</geometry>
+<material name="mg4036e-i36-28_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-28.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-21.stl"/>
+</geometry>
+<material name="mg4036e-i36-21_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-21.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-26.stl"/>
+</geometry>
+<material name="mg4036e-i36-26_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-26.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-11.stl"/>
+</geometry>
+<material name="mg4036e-i36-11_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-11.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-3.stl"/>
+</geometry>
+<material name="mg4036e-i36-3_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-29.stl"/>
+</geometry>
+<material name="mg4036e-i36-29_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-29.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-18.stl"/>
+</geometry>
+<material name="mg4036e-i36-18_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-18.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-22.stl"/>
+</geometry>
+<material name="mg4036e-i36-22_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-22.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-13.stl"/>
+</geometry>
+<material name="mg4036e-i36-13_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-13.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-27.stl"/>
+</geometry>
+<material name="mg4036e-i36-27_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-27.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-23.stl"/>
+</geometry>
+<material name="mg4036e-i36-23_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-23.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-15.stl"/>
+</geometry>
+<material name="mg4036e-i36-15_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-15.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-8.stl"/>
+</geometry>
+<material name="mg4036e-i36-8_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-8.2425016652094786829e-15 0.27900000000001462519 -0.059000000000023672397" rpy="-1.5707963267948155117 1.0547118733947508804e-15 -3.1415926535897593652" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-8.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-5.4396035183649744607e-06 0.16881349815268154035 -0.035388517602497136794" rpy="0 0 0"/>
+<mass value="0.92830831261165946966" />
+<inertia ixx="0.010320001651904286283" ixy="5.4127235078279299265e-07"  ixz="-1.7449090270220427518e-07" iyy="0.00040515648217119082722" iyz="0.00062710413620039034011" izz="0.010229716060720314003" />
+</inertial>
+</link>
+
+<link name="link5">
+<visual>
+<origin xyz="-0.027999999999995806022 -0.011874999999996962638 -0.06106810333988763051" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.027999999999995806022 -0.011874999999996962638 -0.06106810333988763051" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.01200000000000156497 -1.6977627382098195089e-16 -0.013999999999999020173" rpy="-8.6042284408313040617e-16 -5.0515147620444584724e-14 -4.3576253716534861968e-15" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+<material name="m4_18mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.01200000000000156497 -1.6977627382098195089e-16 -0.013999999999999020173" rpy="-8.6042284408313040617e-16 -5.0515147620444584724e-14 -4.3576253716534861968e-15" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.027999999999995028865 0.011875000000004128781 -0.061068103339887463976" rpy="2.1815882433884452237e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.027999999999995028865 0.011875000000004128781 -0.061068103339887463976" rpy="2.1815882433884452237e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.027999999999996583178 0.023750000000003743811 -0.040500000000005198508" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.027999999999996583178 0.023750000000003743811 -0.040500000000005198508" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.027999999999999247713 0.01187500000000231426 -0.019931896660123057941" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.027999999999999247713 0.01187500000000231426 -0.019931896660123057941" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999987840837 0.010392304845414219311 -0.014000000000000741018" rpy="-6.106226635424459271e-16 -5.1736392947532256918e-14 -4.4408920985003855591e-15" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+<material name="m4_18mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999987840837 0.010392304845414219311 -0.014000000000000741018" rpy="-6.106226635424459271e-16 -5.1736392947532256918e-14 -4.4408920985003855591e-15" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.021999999999997688072 2.7424439168582396965e-15 -0.040500000000007169154" rpy="1.570796326794981379 6.9326993675135547387e-14 -1.5707963267949183184" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036i36_bracket.stl"/>
+</geometry>
+<material name="mg4036i36_bracket_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.021999999999997688072 2.7424439168582396965e-15 -0.040500000000007169154" rpy="1.570796326794981379 6.9326993675135547387e-14 -1.5707963267949183184" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036i36_bracket.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.028000000000000135891 -0.011874999999998542971 -0.019931896660123196718" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.028000000000000135891 -0.011874999999998542971 -0.019931896660123196718" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0059999999999996722622 -0.010392304845412930411 -0.014000000000000865918" rpy="-4.9960036107994585306e-16 -5.1181281435219678648e-14 -4.3298697960378572833e-15" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+<material name="m4_18mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0059999999999996722622 -0.010392304845412930411 -0.014000000000000865918" rpy="-4.9960036107994585306e-16 -5.1181281435219678648e-14 -4.3298697960378572833e-15" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.027999999999998581579 -0.023749999999998112898 -0.040500000000005476064" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.027999999999998581579 -0.023749999999998112898 -0.040500000000005476064" rpy="2.2093438190040741372e-14 1.5707963267947926411 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0 -9.7971743931995115625e-19 -0.0059999999999999983902" rpy="1.8198035814962243551e-31 -0 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/4036_output_type_a.stl"/>
+</geometry>
+<material name="4036_output_type_a_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 -9.7971743931995115625e-19 -0.0059999999999999983902" rpy="1.8198035814962243551e-31 -0 0" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/4036_output_type_a.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-1.stl"/>
+</geometry>
+<material name="mg4036e-i36-1_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-17.stl"/>
+</geometry>
+<material name="mg4036e-i36-17_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-17.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-20.stl"/>
+</geometry>
+<material name="mg4036e-i36-20_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-20.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-16.stl"/>
+</geometry>
+<material name="mg4036e-i36-16_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-16.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-4.stl"/>
+</geometry>
+<material name="mg4036e-i36-4_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-4.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-7.stl"/>
+</geometry>
+<material name="mg4036e-i36-7_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-7.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-25.stl"/>
+</geometry>
+<material name="mg4036e-i36-25_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-25.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-2.stl"/>
+</geometry>
+<material name="mg4036e-i36-2_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-19.stl"/>
+</geometry>
+<material name="mg4036e-i36-19_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-19.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-12.stl"/>
+</geometry>
+<material name="mg4036e-i36-12_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-12.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-10.stl"/>
+</geometry>
+<material name="mg4036e-i36-10_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-10.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-24.stl"/>
+</geometry>
+<material name="mg4036e-i36-24_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-24.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-14.stl"/>
+</geometry>
+<material name="mg4036e-i36-14_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-14.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-5.stl"/>
+</geometry>
+<material name="mg4036e-i36-5_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-5.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-9.stl"/>
+</geometry>
+<material name="mg4036e-i36-9_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-6.stl"/>
+</geometry>
+<material name="mg4036e-i36-6_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-30.stl"/>
+</geometry>
+<material name="mg4036e-i36-30_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-30.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-28.stl"/>
+</geometry>
+<material name="mg4036e-i36-28_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-28.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-21.stl"/>
+</geometry>
+<material name="mg4036e-i36-21_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-21.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-26.stl"/>
+</geometry>
+<material name="mg4036e-i36-26_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-26.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-11.stl"/>
+</geometry>
+<material name="mg4036e-i36-11_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-11.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-3.stl"/>
+</geometry>
+<material name="mg4036e-i36-3_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-29.stl"/>
+</geometry>
+<material name="mg4036e-i36-29_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-29.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-18.stl"/>
+</geometry>
+<material name="mg4036e-i36-18_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-18.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-22.stl"/>
+</geometry>
+<material name="mg4036e-i36-22_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-22.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-13.stl"/>
+</geometry>
+<material name="mg4036e-i36-13_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-13.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-27.stl"/>
+</geometry>
+<material name="mg4036e-i36-27_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-27.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-23.stl"/>
+</geometry>
+<material name="mg4036e-i36-23_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-23.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-15.stl"/>
+</geometry>
+<material name="mg4036e-i36-15_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-15.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-8.stl"/>
+</geometry>
+<material name="mg4036e-i36-8_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.017000000000004455991 8.0697220122651874064e-16 -0.040500000000000854761" rpy="3.1415926535897402694 9.4988410732511270747e-15 1.5707963267948943376" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-8.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.0036997041602156218593 1.3840033820693671616e-05 -0.036015874508582561286" rpy="0 0 0"/>
+<mass value="0.36469479976118684972" />
+<inertia ixx="0.00017590579400331921977" ixy="-1.6003166152372121349e-07"  ixz="-1.4234764840890706391e-06" iyy="0.00018073370179456793995" iyz="3.7737168262945870143e-08" izz="0.00014315770662413736182" />
+</inertial>
+</link>
+
+<link name="link6">
+<visual>
+<origin xyz="0.023750000000001422751 0.027999999999994782535 -0.040499999999994984456" rpy="1.5707963267949649477 3.2470583001447329631e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.023750000000001422751 0.027999999999994782535 -0.040499999999994984456" rpy="1.5707963267949649477 3.2470583001447329631e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.023750000000001728062 0.027999999999995070499 -0.040499999999995095479" rpy="1.5707963267949649477 3.2470583001447329631e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.023750000000001728062 0.027999999999995070499 -0.040499999999995095479" rpy="1.5707963267949649477 3.2470583001447329631e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.010392304845413952163 0.0059999999999989185248 -0.013999999999998125055" rpy="-4.9960036108130151053e-16 3.7127616191747462887e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+<material name="m4_18mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.010392304845413952163 0.0059999999999989185248 -0.013999999999998125055" rpy="-4.9960036108130151053e-16 3.7127616191747462887e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.010392304845414007675 0.0059999999999985577023 -0.013999999999998125055" rpy="-6.9388939039072914865e-16 3.7127616191747462887e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+<material name="m4_18mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.010392304845414007675 0.0059999999999985577023 -0.013999999999998125055" rpy="-6.9388939039072914865e-16 3.7127616191747462887e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.011875000000000926481 0.027999999999996260519 -0.019931896660117076614" rpy="1.5707963267949651698 3.2470583001447582067e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.011875000000000926481 0.027999999999996260519 -0.019931896660117076614" rpy="1.5707963267949651698 3.2470583001447582067e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.011875000000000593414 0.027999999999993887417 -0.06106810333987344741" rpy="1.5707963267949651698 3.2470583001447582067e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.011875000000000593414 0.027999999999993887417 -0.06106810333987344741" rpy="1.5707963267949651698 3.2470583001447582067e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.011875000000000676681 0.027999999999996184191 -0.019931896660117187636" rpy="1.5707963267949640596 3.2470583001447455849e-15 4.1043942145249358113e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.011875000000000676681 0.027999999999996184191 -0.019931896660117187636" rpy="1.5707963267949640596 3.2470583001447455849e-15 4.1043942145249358113e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0 9.7971743931995115625e-19 0" rpy="3.141592653589793116 -0 -1.4992097555763063089e-30" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/4036_output_type_a.stl"/>
+</geometry>
+<material name="4036_output_type_a_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 9.7971743931995115625e-19 0" rpy="3.141592653589793116 -0 -1.4992097555763063089e-30" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/4036_output_type_a.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.011875000000001009748 0.027999999999993724353 -0.061068103339873114344" rpy="1.5707963267949651698 3.2470583001447582067e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+<material name="m3_6mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.011875000000001009748 0.027999999999993724353 -0.061068103339873114344" rpy="1.5707963267949651698 3.2470583001447582067e-15 4.1043942145274601662e-17" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m3_6mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0 -0.011999999999999521466 -0.013999999999998458122" rpy="-5.5511151231255933755e-16 3.7127616191796372263e-17 3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+<material name="m4_18mm_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 -0.011999999999999521466 -0.013999999999998458122" rpy="-5.5511151231255933755e-16 3.7127616191796372263e-17 3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/m4_18mm.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.6653345369377348106e-16 0.021999999999994641897 -0.040499999999994762412" rpy="1.5707963267950861841 -6.6388470569207032755e-16 3.1415926535897922278" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036i36_bracket.stl"/>
+</geometry>
+<material name="mg4036i36_bracket_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.6653345369377348106e-16 0.021999999999994641897 -0.040499999999994762412" rpy="1.5707963267950861841 -6.6388470569207032755e-16 3.1415926535897922278" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036i36_bracket.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-1.stl"/>
+</geometry>
+<material name="mg4036e-i36-1_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-17.stl"/>
+</geometry>
+<material name="mg4036e-i36-17_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-17.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-20.stl"/>
+</geometry>
+<material name="mg4036e-i36-20_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-20.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-16.stl"/>
+</geometry>
+<material name="mg4036e-i36-16_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-16.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-4.stl"/>
+</geometry>
+<material name="mg4036e-i36-4_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-4.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-7.stl"/>
+</geometry>
+<material name="mg4036e-i36-7_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-7.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-25.stl"/>
+</geometry>
+<material name="mg4036e-i36-25_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-25.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-2.stl"/>
+</geometry>
+<material name="mg4036e-i36-2_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-19.stl"/>
+</geometry>
+<material name="mg4036e-i36-19_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-19.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-12.stl"/>
+</geometry>
+<material name="mg4036e-i36-12_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-12.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-10.stl"/>
+</geometry>
+<material name="mg4036e-i36-10_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-10.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-24.stl"/>
+</geometry>
+<material name="mg4036e-i36-24_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-24.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-14.stl"/>
+</geometry>
+<material name="mg4036e-i36-14_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-14.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-5.stl"/>
+</geometry>
+<material name="mg4036e-i36-5_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-5.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-9.stl"/>
+</geometry>
+<material name="mg4036e-i36-9_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-6.stl"/>
+</geometry>
+<material name="mg4036e-i36-6_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-30.stl"/>
+</geometry>
+<material name="mg4036e-i36-30_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-30.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-28.stl"/>
+</geometry>
+<material name="mg4036e-i36-28_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-28.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-21.stl"/>
+</geometry>
+<material name="mg4036e-i36-21_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-21.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-26.stl"/>
+</geometry>
+<material name="mg4036e-i36-26_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-26.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-11.stl"/>
+</geometry>
+<material name="mg4036e-i36-11_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-11.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-3.stl"/>
+</geometry>
+<material name="mg4036e-i36-3_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-29.stl"/>
+</geometry>
+<material name="mg4036e-i36-29_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-29.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-18.stl"/>
+</geometry>
+<material name="mg4036e-i36-18_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-18.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-22.stl"/>
+</geometry>
+<material name="mg4036e-i36-22_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-22.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-13.stl"/>
+</geometry>
+<material name="mg4036e-i36-13_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-13.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-27.stl"/>
+</geometry>
+<material name="mg4036e-i36-27_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-27.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-23.stl"/>
+</geometry>
+<material name="mg4036e-i36-23_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-23.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-15.stl"/>
+</geometry>
+<material name="mg4036e-i36-15_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-15.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-8.stl"/>
+</geometry>
+<material name="mg4036e-i36-8_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-4.1633363423443370266e-17 -0.017000000000000459188 -0.040499999999995428546" rpy="-7.2164496600632650773e-16 3.7127616191726952504e-17 -3.141592653589793116" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/mg4036e-i36-8.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-1.3845926791661307585e-05 0.0036997041602181818774 -0.036029405556311989989" rpy="0 0 0"/>
+<mass value="0.36469479976118679421" />
+<inertia ixx="0.00018077789067561010963" ixy="-1.5978994519047080577e-07"  ixz="-7.4703888445781114298e-09" iyy="0.00017594998282487154151" iyz="1.4852326485880867592e-06" izz="0.0001431577065646256672" />
+</inertial>
+</link>
+
+<link name="link7">
+<visual>
+<origin xyz="-2.7755575615628913511e-17 0 -0.0070000000000000027478" rpy="-3.141592653589793116 3.6872457559125297232e-33 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/calibration_board.stl"/>
+</geometry>
+<material name="calibration_board_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-2.7755575615628913511e-17 0 -0.0070000000000000027478" rpy="-3.141592653589793116 3.6872457559125297232e-33 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/calibration_board.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0 0 -0.0029999999999999991951" rpy="-3.141592653589793116 -7.6231668077606401322e-31 3.4771116552823254938e-32" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/4036_out_type_b.stl"/>
+</geometry>
+<material name="4036_out_type_b_material">
+<color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 -0.0029999999999999991951" rpy="-3.141592653589793116 -7.6231668077606401322e-31 3.4771116552823254938e-32" />
+<geometry>
+<mesh filename="package://hephaestus_description/meshes/4036_out_type_b.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-1.6395302375218999336e-17 5.7198658319116473601e-19 -0.01221704734184261669" rpy="0 0 0"/>
+<mass value="0.10227431045687090938" />
+<inertia ixx="6.0983338350996101214e-05" ixy="-1.1075268036767558778e-36"  ixz="-6.3111550526199572127e-21" iyy="6.0983338350996162201e-05" iyz="-6.2326399896819951716e-23" izz="0.00011590760078178941593" />
+</inertial>
+</link>
+
+<joint name="joint6" type="revolute">
+<origin xyz="-4.1633363423443370266e-17 0.027499999999999576866 -0.040499999999995428546" rpy="1.5707963267948970021 -3.7127616191727149719e-17 1.126307145178156865e-16" />
+<parent link="link6" />
+<child link="link7" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint5" type="revolute">
+<origin xyz="-0.027499999999995528022 8.9672221510032624569e-16 -0.040500000000003186229" rpy="3.1415926535897913396 -1.570796326794881681 0" />
+<parent link="link5" />
+<child link="link6" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint4" type="revolute">
+<origin xyz="-8.2870840143356503561e-15 0.27900000000001828893 -0.014500000000023660629" rpy="-3.141592653589793116 -2.1154796746705451328e-14 -1.5707963267948636954" />
+<parent link="link4" />
+<child link="link5" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint3" type="revolute">
+<origin xyz="4.2970981455342213872e-14 0.2790000000000495417 5.6898930012039272697e-15" rpy="-3.1415926535897678029 -1.6416917379929518254e-15 3.1415926535897704674" />
+<parent link="link3" />
+<child link="link4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint2" type="revolute">
+<origin xyz="-1.3437323880039651603e-17 -0.049999999999999968081 -0.061000000000000033362" rpy="-1.5707963267948956698 -1.7691193402745245924e-16 -3.2758948197308381828e-16" />
+<parent link="link2" />
+<child link="link3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint1" type="revolute">
+<origin xyz="-8.8974547750719139184e-20 -3.3306690738838730044e-19 0.0030000000000000000625" rpy="3.1415926535897922278 -2.0432878948692603085e-16 1.5707963267949001107" />
+<parent link="link1" />
+<child link="link2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>
