@@ -3630,7 +3630,7 @@
 <parent link="link6" />
 <child link="link7" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="20" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -3639,7 +3639,7 @@
 <parent link="link5" />
 <child link="link6" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="20" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -3648,7 +3648,7 @@
 <parent link="link4" />
 <child link="link5" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="20" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -3657,7 +3657,7 @@
 <parent link="link3" />
 <child link="link4" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="20" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -3666,7 +3666,7 @@
 <parent link="link2" />
 <child link="link3" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="20" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -3675,9 +3675,82 @@
 <parent link="link1" />
 <child link="link2" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="20" velocity="20" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
+<!-- ros_control plugin -->
+<gazebo>
+<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <robotNamespace>/</robotNamespace>
+    <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+</plugin>
+</gazebo>
+
+<transmission name="tran1">
+<type>transmission_interface/SimpleTransmission</type>
+<joint name="joint1">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+</joint>
+<actuator name="motor1">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+</actuator>
+</transmission>
+
+<transmission name="tran2">
+<type>transmission_interface/SimpleTransmission</type>
+<joint name="joint2">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+</joint>
+<actuator name="motor2">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+</actuator>
+</transmission>
+
+<transmission name="tran3">
+<type>transmission_interface/SimpleTransmission</type>
+<joint name="joint3">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+</joint>
+<actuator name="motor3">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+</actuator>
+</transmission>
+
+<transmission name="tran4">
+<type>transmission_interface/SimpleTransmission</type>
+<joint name="joint4">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+</joint>
+<actuator name="motor4">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+</actuator>
+</transmission>
+
+<transmission name="tran5">
+<type>transmission_interface/SimpleTransmission</type>
+<joint name="joint5">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+</joint>
+<actuator name="motor5">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+</actuator>
+</transmission>
+
+<transmission name="tran6">
+<type>transmission_interface/SimpleTransmission</type>
+<joint name="joint6">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+</joint>
+<actuator name="motor6">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+</actuator>
+</transmission>
 
 </robot>
