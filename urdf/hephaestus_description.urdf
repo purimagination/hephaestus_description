@@ -5333,7 +5333,7 @@
 <parent link="link6" />
 <child link="gripper" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="50" velocity="6.28" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5342,7 +5342,7 @@
 <parent link="link5" />
 <child link="link6" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="50" velocity="6.28" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5351,7 +5351,7 @@
 <parent link="link4" />
 <child link="link5" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="50" velocity="6.28" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5360,7 +5360,7 @@
 <parent link="link3" />
 <child link="link4" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="50" velocity="6.28" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5369,7 +5369,7 @@
 <parent link="link2" />
 <child link="link3" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="50" velocity="6.28" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -5378,8 +5378,17 @@
 <parent link="link1" />
 <child link="link2" />
 <axis xyz="0 0 -1"/>
-<limit effort="1" velocity="0.7" lower="-3.141592653589793116" upper="3.141592653589793116"/>
+<limit effort="50" velocity="6.28" lower="-3.141592653589793116" upper="3.141592653589793116"/>
 <joint_properties friction="0.0"/>
+</joint>
+
+<!-- Add World Frame -->
+<link name="world"/>
+<joint name="fix_to_World" type="fixed">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="world" />
+<child link="link1" />
+<axis xyz="0 0 0"/>
 </joint>
 
 <!-- ros_control plugin -->
